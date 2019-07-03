@@ -1,0 +1,30 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/Vocabulary//Model"
+property uuid "2b69b3e9-b9c6-4a05-8250-32489c7342ca"
+package com.demo.eligibility;
+
+
+public class Customer
+        extends java.io.Serializable
+{
+    public boolean eligibility;
+    public Customer();
+}
+
+public class EligibilityRequest
+        extends java.io.Serializable
+{
+    public int age;
+    public int loanAmount;
+    public StateType state;
+    public EligibilityRequest();
+}
+
+public class EligibilityResponse
+        extends java.io.Serializable
+{
+    public string status;
+    public EligibilityResponse();
+}
+

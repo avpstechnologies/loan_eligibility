@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="EligibilityService" targetRuleProjectName="Eligibility">
+  <name>EligibilityService</name>
+  <uuid>9b5c542e-e63f-4a02-8c58-c212ffc2cd23</uuid>
+  <referencedVariables variableName="eligibilityRequest" variableSetName="eligibility">
+    <variableSet href="../rules/eligibility.var#b21300e8-e31b-455e-8cbf-1855e2d9f7f0"/>
+  </referencedVariables>
+  <referencedVariables variableName="eligibilityResponse" variableSetName="eligibility" direction="OUT">
+    <variableSet href="../rules/eligibility.var#b21300e8-e31b-455e-8cbf-1855e2d9f7f0"/>
+  </referencedVariables>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="EligibilityService_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../Eligibility#0535ebb5-8f91-4924-8e3d-deded99cb852"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

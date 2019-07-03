@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>eligibility</name>
+  <uuid>b21300e8-e31b-455e-8cbf-1855e2d9f7f0</uuid>
+  <variables name="customer" type="com.demo.eligibility.Customer" initialValue="new com.demo.eligibility.Customer()" verbalization="customer"/>
+  <variables name="eligibilityResponse" type="com.demo.eligibility.EligibilityResponse" initialValue="new com.demo.eligibility.EligibilityResponse()" verbalization="response"/>
+  <variables name="eligibilityRequest" type="com.demo.eligibility.EligibilityRequest" initialValue="" verbalization="request"/>
+</ilog.rules.studio.model.base:VariableSet>

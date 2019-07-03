@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>check loan eligibility for customer</name>
+  <uuid>64a227d2-5d70-4dad-b18a-e2f98ec2eb34</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+    all of the following conditions are true :
+            - 
+            - the loan amount of request is at least 1000 and less than 5000
+            - the state of request is not one of { Georgia , NewJersey , NewYork  }
+then
+    make it true that customer is eligibility ;
+    set the status of response to "You are eligible for loan 😊" ;
+else
+    set the status of response to "Sorry! you are not eligible for loan 🙁" ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

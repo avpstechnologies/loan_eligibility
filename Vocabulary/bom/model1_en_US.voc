@@ -1,0 +1,21 @@
+# Vocabulary Properties
+uuid = 9add7e9e-7f9c-4ad9-a035-a72647047633
+
+# com.demo.eligibility.Customer
+com.demo.eligibility.Customer#concept.label = customer
+com.demo.eligibility.Customer.eligibility#phrase.action = make it {eligibility} that {this} is eligibility
+com.demo.eligibility.Customer.eligibility#phrase.navigation = {this} is eligibility
+
+# com.demo.eligibility.EligibilityRequest
+com.demo.eligibility.EligibilityRequest#concept.label = eligibility request
+com.demo.eligibility.EligibilityRequest.age#phrase.action = set the age of {this} to {age}
+com.demo.eligibility.EligibilityRequest.age#phrase.navigation = {age} of {this}
+com.demo.eligibility.EligibilityRequest.loanAmount#phrase.action = set the loan amount of {this} to {loan amount}
+com.demo.eligibility.EligibilityRequest.loanAmount#phrase.navigation = {loan amount} of {this}
+com.demo.eligibility.EligibilityRequest.state#phrase.action = set the state of {this} to {state}
+com.demo.eligibility.EligibilityRequest.state#phrase.navigation = {state} of {this}
+
+# com.demo.eligibility.EligibilityResponse
+com.demo.eligibility.EligibilityResponse#concept.label = eligibility response
+com.demo.eligibility.EligibilityResponse.status#phrase.action = set the status of {this} to {status}
+com.demo.eligibility.EligibilityResponse.status#phrase.navigation = {status} of {this}

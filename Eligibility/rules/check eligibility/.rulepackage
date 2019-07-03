@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>check eligibility</name>
+  <uuid>67dad582-a7ca-4b0a-9776-26485153e718</uuid>
+</ilog.rules.studio.model.base:RulePackage>

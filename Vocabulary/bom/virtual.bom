@@ -1,0 +1,19 @@
+
+property uuid "36b6d29f-ae48-409c-8acc-0463d7d0a0de"
+
+public class StateType
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "2"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.en" "0"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "0"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "1"
+        property domainProviderResource "domains.xlsx"
+        property domainValueProviderName "com.ibm.rules.domainProvider.msexcel2007"
+{
+    domain {static Georgia, static NewYork, static NewJersey, static Maryland}
+    public static final readonly StateType Georgia;
+    public static final readonly StateType Maryland;
+    public static final readonly StateType NewJersey;
+    public static final readonly StateType NewYork;
+}
+

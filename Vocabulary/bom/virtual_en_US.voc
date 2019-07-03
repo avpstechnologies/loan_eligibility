@@ -1,0 +1,9 @@
+# Vocabulary Properties
+uuid = b465abd2-97cd-4055-8d70-25ad4b524a83
+
+# StateType
+StateType#concept.label = state type
+StateType.Georgia#instance.label = Georgia
+StateType.Maryland#instance.label = Maryland
+StateType.NewJersey#instance.label = NewJersey
+StateType.NewYork#instance.label = NewYork
